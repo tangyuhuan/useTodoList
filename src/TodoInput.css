@@ -1,0 +1,15 @@
+.TodoInput{
+	width: 100%;
+	height: 48px;
+	margin-bottom: 5px;
+	padding: 0 15px 2px;
+	font-size: 18px;
+	background: white;
+	border: 2px solid #ebebeb;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 -2px #ebebeb;
+	box-shadow: inset 0 -2px #ebebeb;
+	outline:none;
+}
+
+

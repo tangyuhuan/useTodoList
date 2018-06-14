@@ -1,0 +1,30 @@
+{
+  "name": "bbs-components",
+  "version": "0.1.0",
+  "homepage" : "http://tangyuhuan.github.io/todoList",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.2.1",
+    "@material-ui/icons": "^1.1.0",
+    "leancloud-storage": "^3.7.2",
+    "moment": "^2.22.2",
+    "normalize.css": "^8.0.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-dragula": "^1.1.17",
+    "react-scripts": "1.0.17",
+    "react-text-mask": "^5.4.1",
+    "text-mask-addons": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}

@@ -1,0 +1,72 @@
+.App {
+  color: #333;
+  border-radius: 15px;
+  background: white;
+  margin: 2em;
+  min-height: 20em;
+  min-width: 22em;
+  box-shadow: 0 0 1em hsla(0,0%,0%,0.15);
+}
+.contentWrapper {
+  padding: 1em;
+
+}
+.line{
+  border-radius: 15px 10px 0 0;
+  color:#fff;
+  height:200px;
+  font-size: 1.7em;
+  padding:0.5em 0.5em 0em 0.5em;
+  background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1528751370399&di=a6063fd6b85cf68997649ca8a04d0b1b&imgtype=0&src=http%3A%2F%2Fimg06.tooopen.com%2Fimages%2F20161214%2Ftooopen_sy_190517624551.jpg);
+}
+.line .title{
+  padding-top:1.5em;
+}
+.line h3{
+  margin-top: 50px;
+  font-size: 0.5em;
+}
+.App > .todoList> li:nth-child(odd){
+  background: #eee;
+}
+.App > .todoList> li:nth-child(even){
+  background: transparent;
+}
+.SignOut-button{
+  width: 70px;
+  height: 35px;
+  font-size: 1rem;
+  color:#fff;
+  float: right;
+  border-radius: 10px;
+  border:none;
+  outline:none;
+  background-color:#0066CC;
+
+}
+.SignOut-button:hover{
+  background-color:#0099FF;
+  box-shadow: 2px 2px #555;
+}
+.gu-mirror {
+  position: fixed !important;
+  margin: 0 !important;
+  z-index: 9999 !important;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+.gu-hide {
+  display: none !important;
+}
+.gu-unselectable {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+.gu-transit {
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+}

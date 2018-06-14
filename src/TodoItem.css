@@ -1,0 +1,33 @@
+.TodoItem{
+	display: flex;
+	align-items: center;
+	border-bottom:1px dashed #777;
+	margin-top:;
+}
+.TodoItem>.checkbox{
+	width: 20px;
+	font-size: 3rem;
+}
+.TodoItem>.title{
+	flex-grow: 1;
+	padding: 0 .5em;
+}
+.Delete-button {
+	width: 20%;
+	height: 2rem;
+	font-size: 1rem;
+	float: right;
+}
+.Delete-button {
+	border:none;
+	height:40px;
+	width:40px;
+	border-radius: 50%;
+	outline:none;
+}
+.deleteicon{
+	color:#666;
+}
+.Delete-button:hover {
+	background-color:#DDD;
+}
